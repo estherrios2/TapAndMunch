@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A356073B1DE00D1F004B4D3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356073A1DE00D1F004B4D3C /* AppDelegate.swift */; };
-		A356073D1DE00D1F004B4D3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356073C1DE00D1F004B4D3C /* ViewController.swift */; };
 		A35607401DE00D20004B4D3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A356073E1DE00D20004B4D3C /* Main.storyboard */; };
 		A35607421DE00D20004B4D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A35607411DE00D20004B4D3C /* Assets.xcassets */; };
 		A35607451DE00D20004B4D3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A35607431DE00D20004B4D3C /* LaunchScreen.storyboard */; };
+		A356074D1DE016D2004B4D3C /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356074C1DE016D1004B4D3C /* ProductViewController.swift */; };
+		A356074F1DE07C98004B4D3C /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356074E1DE07C98004B4D3C /* ContactViewController.swift */; };
+		A38130071DEB5BE2003DD5B8 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38130061DEB5BE2003DD5B8 /* ProductsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A35607371DE00D1F004B4D3C /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A356073A1DE00D1F004B4D3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A356073C1DE00D1F004B4D3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A356073F1DE00D20004B4D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A35607411DE00D20004B4D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A35607441DE00D20004B4D3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A35607461DE00D20004B4D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A356074C1DE016D1004B4D3C /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		A356074E1DE07C98004B4D3C /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		A38130061DEB5BE2003DD5B8 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				A356073A1DE00D1F004B4D3C /* AppDelegate.swift */,
-				A356073C1DE00D1F004B4D3C /* ViewController.swift */,
 				A356073E1DE00D20004B4D3C /* Main.storyboard */,
 				A35607411DE00D20004B4D3C /* Assets.xcassets */,
 				A35607431DE00D20004B4D3C /* LaunchScreen.storyboard */,
 				A35607461DE00D20004B4D3C /* Info.plist */,
+				A356074C1DE016D1004B4D3C /* ProductViewController.swift */,
+				A356074E1DE07C98004B4D3C /* ContactViewController.swift */,
+				A38130061DEB5BE2003DD5B8 /* ProductsTableViewController.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A356073D1DE00D1F004B4D3C /* ViewController.swift in Sources */,
+				A356074D1DE016D2004B4D3C /* ProductViewController.swift in Sources */,
+				A38130071DEB5BE2003DD5B8 /* ProductsTableViewController.swift in Sources */,
 				A356073B1DE00D1F004B4D3C /* AppDelegate.swift in Sources */,
+				A356074F1DE07C98004B4D3C /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				A356074B1DE00D20004B4D3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
